@@ -1,0 +1,86 @@
+23220030036 - N.SAHANA 
+
+python basic assignment 
+
+ORIGINAL FILE LOCATED 
+
+#Task-1
+n=input("ENTER NAME:")
+age=int(input("ENTER Age:"))
+f=int(input("ENTER FAVORITE NUMBER:"))
+print("year to be 100 years old is",c+a)
+result=f*2;
+print("double of Favorite Number:",result)
+
+#Task-2
+num=int(input("Enter a Number:"))
+if num%2==0;
+print(num,"is a even number")
+else:
+print(num,"is a odd number")
+
+#Task-3
+#For Loop
+print("For Loop)
+For i in range(1,51);
+if i%2==0:
+print(i,end=" ")
+print("\n")
+print("While Loop")
+#While Loop
+num=1
+While num<=50:
+if num%2==0:
+print(num,end=" ")
+num+=1;
+
+#Task-4
+food=["pizza","chips","paneer","biryani","cake"]
+print(food)
+food_length[f]=len(f)
+print(food_length)
+
+#Task-5
+def calculate_area(shape,dimension1,dimension2=None):
+if shape.lower()=="circle";
+result=3.14*dimension1
+print(result)
+elif shape.lower()=="rectangle":
+result=dimension1*dimension2
+print(result)
+elif shape.lower()=="triangle":
+result=0.5*dimension1*dimension2
+print("Invalid Shape")
+calculate_area("circle",5)
+calculate_area("rectangle",4,7)
+calculate_area("triangle",6,8)
+
+#Task-6
+s=input("Enter a sentence:")
+v=0;
+for i is in s.lower():
+if i in "aeiou":
+v+=1;
+print("Number of vowels:",v)
+rs=s[::-1]
+print("Reversed sentence:",rs)
+us=s.upper()
+print("UpperCase:",us)
+
+#Task-7
+with open("data.txt","w") as file:
+file.write("Hello,python\n")
+file.write("Learning File Handling\n")
+file.write("python is Fun\n")
+with open("data.txt","r") as file:
+print(file.read())
+
+#Task-8
+try:
+num1=int(input("Enter Number 1:"))
+num2=int(input("Enter Number 2:"))
+result=num1/num2print("Result:",result)
+except ZeroDivisionError:
+print("cannot be divided by zero")
+except ValueError:
+print("Invalid Input")
